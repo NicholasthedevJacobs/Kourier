@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Contact from '../contact';
+import './Navbar.css'
 
 function Navbar () {
     return(
@@ -9,17 +10,11 @@ function Navbar () {
                <div className='navbar-container'>
                     <Link to="/" className='navbar-logo' >
                         <img src='kourierLogo.png' height='50px'/>
-
-                    </Link>
-                    <li>
-                        <Link to="/about">About</Link>
-                    </li>
-                    <li>
-                        <Link to="/contact">Contact</Link>
-                    </li>
-                    <li>
-                        <Link to="/store">Store</Link>
-                    </li>
+                    </Link>            
+                    <Link to="/about" className='linkPages'>About</Link>
+                    <Link to="/contact" className='linkPages'>Contact</Link>
+                    <Link to="/store" className='linkPages'>Store</Link>
+                    
 
                 </div>      
             </nav>

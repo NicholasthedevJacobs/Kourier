@@ -1,0 +1,12 @@
+.linkPages{
+    display: block, inline;
+    width: 60px;
+}
+
+.navbar-container {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    display: inline;
+  }
