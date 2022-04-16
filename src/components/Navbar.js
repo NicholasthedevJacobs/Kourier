@@ -1,25 +1,19 @@
-import React, {useState} from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
+function Navbar () {
+    return(
+        <>
+            <nav className='navbar'>
+               <div className='navbar-container'>
+                    <Link to="/" className='navbar-logo' >
+                        <img src='kourierLogo.png' height='50px'/>
 
-function Navbar() {
-    const [click, setClick] = useState(false);
-
-    const handleClick = () => setClick(!click);
-  return (
-    <>
-        <nav className="navbar">
-            <div className='navbar=container'>
-                {/* <img src='kourierLogo.png' height="200" width="200" /> */}
-                <Link to="/" className="navbar-logo">
-                    Kourier
-                </Link>
-
-                
-            </div>
-        </nav>
-    </>
-  )
+                    </Link>
+               </div>      
+            </nav>
+        </>
+    );
 }
 
-export default Navbar
+export default Navbar;
