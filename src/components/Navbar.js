@@ -8,12 +8,23 @@ function Navbar () {
         <>
             <nav className='navbar'>
                <div className='navbar-container'>
+ 
+                  <ul>
                     <Link to="/" className='navbar-logo' >
-                        <img src='kourierLogo.png' height='50px'/>
-                    </Link>            
-                    <Link to="/about" className='linkPages'>About</Link>
-                    <Link to="/contact" className='linkPages'>Contact</Link>
-                    <Link to="/store" className='linkPages'>Store</Link>
+                        <img src='kourierLogo.png' height='70px'/>
+                    </Link>   
+                    <li>
+                        <Link to="/about" className='linkPages' >About</Link>
+                    </li>         
+                    <li>
+                        <Link to="/contact" className='linkPages'>Contact</Link>
+                    </li>
+                    <li>
+                        <Link to="/store" className='linkPages'>Store</Link>
+                    </li>
+                  </ul>
+                    
+                    
                     
 
                 </div>      
