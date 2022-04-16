@@ -10,7 +10,17 @@ function Navbar () {
                         <img src='kourierLogo.png' height='50px'/>
 
                     </Link>
-               </div>      
+                    <li>
+                        <Link to="/">About</Link>
+                    </li>
+                    <li>
+                        <Link to="/cats">Contact</Link>
+                    </li>
+                    <li>
+                        <Link to="/sheeps">Store</Link>
+                    </li>
+
+                </div>      
             </nav>
         </>
     );
