@@ -6,7 +6,7 @@ import './Navbar.css'
 function Navbar () {
     return(
         <>
-            <nav className='navbar'>
+            <div className='navbar'>
                <div className='navbar-container'>
  
                   <ul>
@@ -28,7 +28,7 @@ function Navbar () {
                     
 
                 </div>      
-            </nav>
+            </div>
         </>
     );
 }

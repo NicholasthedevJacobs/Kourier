@@ -2,10 +2,11 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: visible;
     background-color: rgb(255, 255, 255);
+    width: 100%;
     /* background-color: transparent; */
-    opacity: 1
+
   }
   
   li {
@@ -28,8 +29,14 @@ ul {
     color: rgba(61, 180, 25, 0.579);
   }
 
+
+
   .navbar-container{
+      
       text-align: left;
+      position: fixed;
+      right: 0px;
+      width: 100%;
   }
 
   .navbar-logo{
